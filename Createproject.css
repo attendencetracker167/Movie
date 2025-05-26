@@ -1,0 +1,30 @@
+.project-form-container{
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.project-form-card{
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+    color: rgb(39, 30, 24);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.project-form-card .form-control{
+    background-color: rgba(255,255,255,0.85);
+    color: #000;
+    border: none;
+}
+
+.project-form-card .form-control::placeholder{
+    color: #666;
+}
+
